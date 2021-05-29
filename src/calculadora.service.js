@@ -37,7 +37,7 @@ function CalculadoraService(){
             numAtual = '';
         }
         //Caso o primeiro dígito seja '.', concatena 0 antes do ponto
-        if(numAtual === '.' && numAtual === ''){
+        if(numConcat === '.' && numAtual === ''){
             return '0.';
         }
 
